@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A49732F1-73FD-4B9B-85CD-48C16A26FE0F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86669D77-25AB-4198-83ED-89F691F35D57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RESTSocketExample/Services/ApiClient/AuthSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "obtainToken(for:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86669D77-25AB-4198-83ED-89F691F35D57 - 6267f00cf7c71944"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RESTSocketExample.AuthSession.obtainToken(for: Swift.String, password: Swift.String) async throws -&gt; RESTSocketExample.AuthToken"
+                  moduleName = "RESTSocketExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Documents/Development/Personal/RESTSocketExample/RESTSocketExample/Services/ApiClient/AuthSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "86669D77-25AB-4198-83ED-89F691F35D57 - 6267f00cf7c71b36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RESTSocketExample.AuthSession.obtainToken(for: Swift.String, password: Swift.String) async throws -&gt; RESTSocketExample.AuthToken"
+                  moduleName = "RESTSocketExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Documents/Development/Personal/RESTSocketExample/RESTSocketExample/Services/ApiClient/AuthSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8389659D-0C6E-4B65-9DEA-96492A4042F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RESTSocketExample/AppFeatures/HomeFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8389659D-0C6E-4B65-9DEA-96492A4042F4 - df7d94762ee12185"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #3 @Sendable (ComposableArchitecture.Send&lt;RESTSocketExample.HomeFeature.Action&gt;) async -&gt; () in closure #1 (inout RESTSocketExample.HomeFeature.State, RESTSocketExample.HomeFeature.Action) -&gt; ComposableArchitecture.Effect&lt;RESTSocketExample.HomeFeature.Action&gt; in RESTSocketExample.HomeFeature.body.getter : some"
+                  moduleName = "RESTSocketExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Documents/Development/Personal/RESTSocketExample/RESTSocketExample/AppFeatures/HomeFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "8389659D-0C6E-4B65-9DEA-96492A4042F4 - e4d81d0e14274e04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #3 @Sendable (ComposableArchitecture.Send&lt;RESTSocketExample.HomeFeature.Action&gt;) async -&gt; () in closure #1 (inout RESTSocketExample.HomeFeature.State, RESTSocketExample.HomeFeature.Action) -&gt; ComposableArchitecture.Effect&lt;RESTSocketExample.HomeFeature.Action&gt; in RESTSocketExample.HomeFeature.body.getter : some"
+                  moduleName = "RESTSocketExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Documents/Development/Personal/RESTSocketExample/RESTSocketExample/AppFeatures/HomeFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "8389659D-0C6E-4B65-9DEA-96492A4042F4 - a4486265d65ec83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #3 @Sendable (ComposableArchitecture.Send&lt;RESTSocketExample.HomeFeature.Action&gt;) async -&gt; () in closure #1 (inout RESTSocketExample.HomeFeature.State, RESTSocketExample.HomeFeature.Action) -&gt; ComposableArchitecture.Effect&lt;RESTSocketExample.HomeFeature.Action&gt; in RESTSocketExample.HomeFeature.body.getter : some"
+                  moduleName = "RESTSocketExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Documents/Development/Personal/RESTSocketExample/RESTSocketExample/AppFeatures/HomeFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

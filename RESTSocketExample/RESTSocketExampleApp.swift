@@ -1,17 +1,15 @@
-//
-//  RESTSocketExampleApp.swift
-//  RESTSocketExample
-//
-//  Created by Eugene Honcharenko on 2023-11-05.
-//
-
+import ComposableArchitecture
 import SwiftUI
 
 @main
 struct RESTSocketExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView(
+                store: StoreOf<AppFeature>(
+                    initialState: AppFeature.State()
+                ) { AppFeature() }
+            )
         }
     }
 }

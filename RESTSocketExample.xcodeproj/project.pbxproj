@@ -14,6 +14,28 @@
 		442C89DC2AF83935004D941D /* RESTSocketExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C89DB2AF83935004D941D /* RESTSocketExampleTests.swift */; };
 		442C89E62AF83935004D941D /* RESTSocketExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C89E52AF83935004D941D /* RESTSocketExampleUITests.swift */; };
 		442C89E82AF83935004D941D /* RESTSocketExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C89E72AF83935004D941D /* RESTSocketExampleUITestsLaunchTests.swift */; };
+		442C89F62AF839E4004D941D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 442C89F52AF839E4004D941D /* ComposableArchitecture */; };
+		442C89F82AF83B11004D941D /* LoginFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C89F72AF83B11004D941D /* LoginFeature.swift */; };
+		44A27D952AF84BF4000563AE /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A27D942AF84BF4000563AE /* AppFeature.swift */; };
+		44A27D972AF84CA8000563AE /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A27D962AF84CA8000563AE /* HomeFeature.swift */; };
+		44A27D9B2AF8568E000563AE /* SessionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A27D9A2AF8568E000563AE /* SessionInfo.swift */; };
+		44A27D9D2AF86A38000563AE /* WebSocketStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A27D9C2AF86A38000563AE /* WebSocketStream.swift */; };
+		44A27D9F2AF874BB000563AE /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A27D9E2AF874BB000563AE /* Transaction.swift */; };
+		44A27DA12AF88169000563AE /* EmptyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A27DA02AF88168000563AE /* EmptyModel.swift */; };
+		44F388842AF84073003BF89B /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F388822AF8405F003BF89B /* TokenStorage.swift */; };
+		44F388872AF8409D003BF89B /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 44F388862AF8409D003BF89B /* KeychainAccess */; };
+		44F388892AF840B5003BF89B /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F388882AF840B5003BF89B /* AuthToken.swift */; };
+		44F3888E2AF8411B003BF89B /* Isolated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3888B2AF8411B003BF89B /* Isolated.swift */; };
+		44F388902AF8411B003BF89B /* JSONCoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3888D2AF8411B003BF89B /* JSONCoders.swift */; };
+		44F388912AF8412D003BF89B /* AuthClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F388782AF84058003BF89B /* AuthClientMock.swift */; };
+		44F388922AF84144003BF89B /* AuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F388772AF84058003BF89B /* AuthClient.swift */; };
+		44F388932AF8414D003BF89B /* AppEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3887A2AF84058003BF89B /* AppEnv.swift */; };
+		44F388942AF841DA003BF89B /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3887C2AF84058003BF89B /* ApiClientTests.swift */; };
+		44F388952AF841E3003BF89B /* ApiClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3887D2AF84058003BF89B /* ApiClientMock.swift */; };
+		44F388962AF841E7003BF89B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3887E2AF84058003BF89B /* ApiClient.swift */; };
+		44F388972AF841EA003BF89B /* AuthSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3887F2AF84058003BF89B /* AuthSessionMock.swift */; };
+		44F388982AF841EC003BF89B /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F388802AF84058003BF89B /* HTTPClient.swift */; };
+		44F388992AF841F0003BF89B /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F388812AF84058003BF89B /* AuthSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +67,28 @@
 		442C89E12AF83935004D941D /* RESTSocketExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTSocketExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442C89E52AF83935004D941D /* RESTSocketExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTSocketExampleUITests.swift; sourceTree = "<group>"; };
 		442C89E72AF83935004D941D /* RESTSocketExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTSocketExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		442C89F72AF83B11004D941D /* LoginFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFeature.swift; sourceTree = "<group>"; };
+		44A27D942AF84BF4000563AE /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		44A27D962AF84CA8000563AE /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
+		44A27D992AF8567D000563AE /* AuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
+		44A27D9A2AF8568E000563AE /* SessionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionInfo.swift; sourceTree = "<group>"; };
+		44A27D9C2AF86A38000563AE /* WebSocketStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketStream.swift; sourceTree = "<group>"; };
+		44A27D9E2AF874BB000563AE /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		44A27DA02AF88168000563AE /* EmptyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModel.swift; sourceTree = "<group>"; };
+		44F388772AF84058003BF89B /* AuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClient.swift; sourceTree = "<group>"; };
+		44F388782AF84058003BF89B /* AuthClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClientMock.swift; sourceTree = "<group>"; };
+		44F388792AF84058003BF89B /* AuthClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClientTests.swift; sourceTree = "<group>"; };
+		44F3887A2AF84058003BF89B /* AppEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnv.swift; sourceTree = "<group>"; };
+		44F3887C2AF84058003BF89B /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
+		44F3887D2AF84058003BF89B /* ApiClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientMock.swift; sourceTree = "<group>"; };
+		44F3887E2AF84058003BF89B /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		44F3887F2AF84058003BF89B /* AuthSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSessionMock.swift; sourceTree = "<group>"; };
+		44F388802AF84058003BF89B /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		44F388812AF84058003BF89B /* AuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSession.swift; sourceTree = "<group>"; };
+		44F388822AF8405F003BF89B /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		44F388882AF840B5003BF89B /* AuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
+		44F3888B2AF8411B003BF89B /* Isolated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Isolated.swift; sourceTree = "<group>"; };
+		44F3888D2AF8411B003BF89B /* JSONCoders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCoders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F388872AF8409D003BF89B /* KeychainAccess in Frameworks */,
+				442C89F62AF839E4004D941D /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +141,10 @@
 		442C89C82AF83934004D941D /* RESTSocketExample */ = {
 			isa = PBXGroup;
 			children = (
+				44A27D932AF84B8D000563AE /* AppFeatures */,
+				44F3888A2AF840FE003BF89B /* Helpers */,
+				44F388762AF83FB6003BF89B /* Services */,
+				44A27D982AF85674000563AE /* Models */,
 				442C89C92AF83934004D941D /* RESTSocketExampleApp.swift */,
 				442C89CB2AF83934004D941D /* ContentView.swift */,
 				442C89CD2AF83935004D941D /* Assets.xcassets */,
@@ -129,6 +179,64 @@
 			path = RESTSocketExampleUITests;
 			sourceTree = "<group>";
 		};
+		44A27D932AF84B8D000563AE /* AppFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				44A27D942AF84BF4000563AE /* AppFeature.swift */,
+				442C89F72AF83B11004D941D /* LoginFeature.swift */,
+				44A27D962AF84CA8000563AE /* HomeFeature.swift */,
+			);
+			path = AppFeatures;
+			sourceTree = "<group>";
+		};
+		44A27D982AF85674000563AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44A27D992AF8567D000563AE /* AuthToken.swift */,
+				44A27D9A2AF8568E000563AE /* SessionInfo.swift */,
+				44A27D9E2AF874BB000563AE /* Transaction.swift */,
+				44A27DA02AF88168000563AE /* EmptyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44F388762AF83FB6003BF89B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44F3887B2AF84058003BF89B /* ApiClient */,
+				44F3887A2AF84058003BF89B /* AppEnv.swift */,
+				44F388772AF84058003BF89B /* AuthClient.swift */,
+				44F388782AF84058003BF89B /* AuthClientMock.swift */,
+				44F388792AF84058003BF89B /* AuthClientTests.swift */,
+				44F388882AF840B5003BF89B /* AuthToken.swift */,
+				44F388822AF8405F003BF89B /* TokenStorage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44F3887B2AF84058003BF89B /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				44F3887C2AF84058003BF89B /* ApiClientTests.swift */,
+				44F3887D2AF84058003BF89B /* ApiClientMock.swift */,
+				44F3887E2AF84058003BF89B /* ApiClient.swift */,
+				44F3887F2AF84058003BF89B /* AuthSessionMock.swift */,
+				44F388802AF84058003BF89B /* HTTPClient.swift */,
+				44F388812AF84058003BF89B /* AuthSession.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		44F3888A2AF840FE003BF89B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44F3888B2AF8411B003BF89B /* Isolated.swift */,
+				44F3888D2AF8411B003BF89B /* JSONCoders.swift */,
+				44A27D9C2AF86A38000563AE /* WebSocketStream.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +253,10 @@
 			dependencies = (
 			);
 			name = RESTSocketExample;
+			packageProductDependencies = (
+				442C89F52AF839E4004D941D /* ComposableArchitecture */,
+				44F388862AF8409D003BF89B /* KeychainAccess */,
+			);
 			productName = RESTSocketExample;
 			productReference = 442C89C62AF83934004D941D /* RESTSocketExample.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +329,10 @@
 				Base,
 			);
 			mainGroup = 442C89BD2AF83934004D941D;
+			packageReferences = (
+				442C89F42AF839E4004D941D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				44F388852AF8409D003BF89B /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 442C89C72AF83934004D941D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +375,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F388912AF8412D003BF89B /* AuthClientMock.swift in Sources */,
+				44F388952AF841E3003BF89B /* ApiClientMock.swift in Sources */,
+				44A27D9B2AF8568E000563AE /* SessionInfo.swift in Sources */,
+				44F388992AF841F0003BF89B /* AuthSession.swift in Sources */,
+				44F3888E2AF8411B003BF89B /* Isolated.swift in Sources */,
 				442C89CC2AF83934004D941D /* ContentView.swift in Sources */,
 				442C89CA2AF83934004D941D /* RESTSocketExampleApp.swift in Sources */,
+				44A27D972AF84CA8000563AE /* HomeFeature.swift in Sources */,
+				44F388972AF841EA003BF89B /* AuthSessionMock.swift in Sources */,
+				44A27D9D2AF86A38000563AE /* WebSocketStream.swift in Sources */,
+				44F388932AF8414D003BF89B /* AppEnv.swift in Sources */,
+				44A27D952AF84BF4000563AE /* AppFeature.swift in Sources */,
+				442C89F82AF83B11004D941D /* LoginFeature.swift in Sources */,
+				44F388962AF841E7003BF89B /* ApiClient.swift in Sources */,
+				44A27DA12AF88169000563AE /* EmptyModel.swift in Sources */,
+				44A27D9F2AF874BB000563AE /* Transaction.swift in Sources */,
+				44F388922AF84144003BF89B /* AuthClient.swift in Sources */,
+				44F388982AF841EC003BF89B /* HTTPClient.swift in Sources */,
+				44F388902AF8411B003BF89B /* JSONCoders.swift in Sources */,
+				44F388892AF840B5003BF89B /* AuthToken.swift in Sources */,
+				44F388842AF84073003BF89B /* TokenStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				442C89DC2AF83935004D941D /* RESTSocketExampleTests.swift in Sources */,
+				44F388942AF841DA003BF89B /* ApiClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +753,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		442C89F42AF839E4004D941D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		44F388852AF8409D003BF89B /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		442C89F52AF839E4004D941D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 442C89F42AF839E4004D941D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		44F388862AF8409D003BF89B /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44F388852AF8409D003BF89B /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 442C89BE2AF83934004D941D /* Project object */;
 }
